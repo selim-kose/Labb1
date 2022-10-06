@@ -30,7 +30,7 @@ public class MenuUI extends Logic {
                 case "2" -> minMax();
                 case "3" -> rockPaperScissors();
                 case "4" -> order();
-                case "e" -> System.exit(0);
+                case "e", "E" -> System.exit(0);
                 default -> System.out.println("Wrong input, try again!");
             }
 

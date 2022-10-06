@@ -14,7 +14,7 @@ public class Logic {
 
         String[] list = new String[numberOfWords]; //Skapar en vektor av typen String.Storleken anges av var numberOfWords
 
-        //priontar
+        //printar
         System.out.println("Enter " + numberOfWords + " words, 'END' quits");
 
         while (counter <= numberOfWords-1) {
@@ -55,12 +55,9 @@ public class Logic {
             counter++;
         }
 
-        //Min och max deffineras här med talen från första platsen i vektorn. Vi kommer sedan att jämföra de mot alla
+        //Min och max definieras här med talen från första platsen i vektorn. Vi kommer sedan att jämföra de mot alla
         //andra tal i vektorn
         for (int i = 0; i < list.length; i++) {
-            min = list[0];
-            max = list[0];
-
 
         //Här är en if-sats som går igenom alla tal i vektorn och jämför de min variabeln. På så sätt för vi fram
         // det minsta talet.
